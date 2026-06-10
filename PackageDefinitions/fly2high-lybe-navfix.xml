@@ -6,6 +6,12 @@
         <Creator>Custom Patch</Creator>
     </ItemSettings>
 
+    <Dependencies>
+        <Dependency Version="1.0.0">
+            <Name>flyhigh-airport-lybe-belgrade</Name>
+        </Dependency>
+    </Dependencies>
+
     <PackageOrderHint>CUSTOM_AIRPORT</PackageOrderHint>
 
     <AssetGroups>
