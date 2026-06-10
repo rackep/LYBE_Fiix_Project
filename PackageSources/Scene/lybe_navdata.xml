@@ -1,0 +1,26 @@
+<FSData version="9.0">
+    <Airport ident="LYBE" region="" name="Belgrade Fly2High Fix" lat="44.8184" lon="20.3091" alt="102.0M">
+        
+        <DeleteAirport 
+            deleteAllApproaches="FALSE" 
+            deleteAllArrivals="FALSE"
+            deleteAllDepartures="FALSE"
+            deleteAllFrequencies="FALSE" />
+
+        <!-- Runway 12 (Primary) / Runway 30 (Secondary) -->
+        <Runway lat="44.8184" lon="20.3091" alt="102.0M" heading="116.0" length="3500.0M" width="45.0M" number="12" designator="NONE" surface="ASPHALT" patternAltitude="457.2M" primaryTakeoff="YES" primaryLanding="YES" secondaryTakeoff="YES" secondaryLanding="YES">
+            
+            <!-- ILS Rwy 12 -->
+            <Ils ident="ILE" lon="20.3275" lat="44.8122" alt="102.0M" heading="116.0" frequency="110.50" magvar="4.0" range="27.0N" backCourse="NO" end="PRIMARY">
+                <GlideSlope lon="20.2972" lat="44.8219" alt="102.0M" pitch="3.0" range="27.0N"/>
+            </Ils>
+
+            <!-- ILS Rwy 30 -->
+            <Ils ident="ILW" lon="20.2913" lat="44.8242" alt="102.0M" heading="296.0" frequency="109.10" magvar="4.0" range="27.0N" backCourse="NO" end="SECONDARY">
+                <GlideSlope lon="20.3221" lat="44.8145" alt="102.0M" pitch="3.0" range="27.0N"/>
+            </Ils>
+
+        </Runway>
+
+    </Airport>
+</FSData>

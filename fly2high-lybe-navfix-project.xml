@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Version="2" Name="fly2high-lybe-navfix" FolderName="fly2high-lybe-navfix">
+    <OutputDirectory>.</OutputDirectory>
+    <TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+    <Packages>
+        <Package>PackageDefinitions/fly2high-lybe-navfix.xml</Package>
+    </Packages>
+</Project>

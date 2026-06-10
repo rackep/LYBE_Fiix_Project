@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="2" Name="fly2high-lybe-navfix">
+    <ItemSettings>
+        <ContentType>SCENERY</ContentType>
+        <Title>LYBE Belgrade Navdata Fix</Title>
+        <Creator>Custom Patch</Creator>
+    </ItemSettings>
+
+    <PackageOrderHint>CUSTOM_AIRPORT</PackageOrderHint>
+
+    <AssetGroups>
+        <AssetGroup name="scenery">
+            <Type>BGL</Type>
+            <Flags>
+                <Flag>MainContent</Flag>
+            </Flags>
+            <AssetDir>PackageSources/Scene</AssetDir>
+            <OutputDir>Scenery/World/Scenery</OutputDir>
+        </AssetGroup>
+    </AssetGroups>
+</AssetPackage>
